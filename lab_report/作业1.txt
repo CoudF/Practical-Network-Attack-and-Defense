@@ -1,0 +1,17 @@
+1) 在/tmp下新建一个名为test的目录。
+
+2) 用命令man查看命令touch的使用手册。
+
+3) 用命令touch在test目录中新建一个名为test的文件。
+
+4) 用命令echo将以下内容一行一行地写入test文件。
+#!/bin/sh
+curl --head --silent https://www.nju.edu.cn
+
+5) 尝试执行这个文件，即将该脚本的路径（./test）输入到您的shell中并回车。如果程序无法执行，请使用ls命令来获取信息并给出其不能执行的原因。
+
+6) 查看命令chmod的手册，使用命令chmod改变test文件的权限，使 ./test 能够成功执行，不要使用sh test来执行该程序。
+
+7) 请问你的shell是如何知道这个文件需要使用sh来解析的。请通过网络搜索“unix shebang”来了解更多信息。
+
+8) 请使用 | 和 > ，将test文件输出的最后5行内容写入自己主目录下的last-5-lines.txt文件中。
